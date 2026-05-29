@@ -35,7 +35,7 @@ COLUMN_MAP = {
     "Norme / Référence": "reference",
 }
 
-GROUPS = ["Asset", "Fluid", "Operating conditions", "Fluid chemistry"]
+GROUPS = ["Asset", "Fluid", "Operating conditions", "Water chemistry"]
 
 
 @dataclass(frozen=True)
