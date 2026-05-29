@@ -31,7 +31,7 @@ from xgboost import XGBRegressor, XGBClassifier
 import schema
 import data_loader
 
-MODELS_DIR = Path(__file__).parent / "models"
+MODELS_DIR = Path(__file__).parent
 MODELS_DIR.mkdir(exist_ok=True)
 RANDOM_STATE = 42
 
