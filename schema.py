@@ -35,7 +35,7 @@ COLUMN_MAP = {
     "Norme / Référence": "reference",
 }
 
-GROUPS = ["Asset", "Fluid", "Operating conditions", "Water chemistry"]
+GROUPS = ["Asset", "Fluid", "Operating conditions", "Fluid chemistry"]
 
 
 @dataclass(frozen=True)
@@ -68,11 +68,11 @@ NUMERIC_FEATURES = [
     NumericFeature("density", "Density", "Densité", "kg/m³", 0.7, 1236, 850, "Operating conditions"),
     NumericFeature("flow_velocity", "Flow velocity", "Vitesse d'écoulement", "m/s", 0.05, 12, 3.0, "Operating conditions"),
     NumericFeature("exposure_h", "Exposure duration", "Durée d'exposition", "h", 168, 17520, 1080, "Operating conditions"),
-    NumericFeature("ph", "pH", "pH", "", 0.5, 14, 6.0, "Water chemistry"),
-    NumericFeature("chloride", "Chloride (Cl⁻)", "Chlorures (Cl⁻)", "mg/L", 0, 180000, 300, "Water chemistry"),
-    NumericFeature("co2", "CO₂", "CO₂", "%", 0, 100, 0.2, "Water chemistry"),
-    NumericFeature("h2s", "H₂S", "H₂S", "ppm", 0, 6000, 0, "Water chemistry"),
-    NumericFeature("o2", "Dissolved O₂", "O₂ dissous", "mg/L", 0, 14, 0.1, "Water chemistry"),
+    NumericFeature("ph", "pH", "pH", "", 0.5, 14, 6.0, "Fluid chemistry"),
+    NumericFeature("chloride", "Chloride (Cl⁻)", "Chlorures (Cl⁻)", "mg/L", 0, 180000, 300, "Fluid chemistry"),
+    NumericFeature("co2", "CO₂", "CO₂", "%", 0, 100, 0.2, "Fluid chemistry"),
+    NumericFeature("h2s", "H₂S", "H₂S", "ppm", 0, 6000, 0, "Fluid chemistry"),
+    NumericFeature("o2", "Dissolved O₂", "O₂ dissous", "mg/L", 0, 14, 0.1, "Fluid chemistry"),
 ]
 
 CATEGORICAL_FEATURES = [
