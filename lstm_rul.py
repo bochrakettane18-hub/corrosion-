@@ -21,7 +21,7 @@ from pathlib import Path
 
 import numpy as np
 
-MODELS_DIR = Path(__file__).parent / "models"
+MODELS_DIR = Path(__file__).parent
 RANDOM_STATE = 42
 
 WINDOW = 12          # months of history fed to the LSTM (1 year of monthly readings)
