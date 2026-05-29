@@ -22,12 +22,12 @@ import plotly.graph_objects as go
 import schema
 import predict
 
-st.set_page_config(page_title="Corrosion PdM", page_icon="🛢️", layout="wide")
+st.set_page_config(page_title="Corrosion Pred", page_icon="🛢️", layout="wide")
 
 # ---------------------------------------------------------------- i18n
 T = {
     "en": {
-        "title": "Pipeline Corrosion — Predictive Maintenance",
+        "title": "Pipeline Corrosion",
         "subtitle": "Predict corrosion rate, thickness loss, risk, failure probability and remaining life.",
         "single": "Single segment",
         "batch": "Batch upload",
@@ -73,7 +73,7 @@ T = {
         "yr": "yr",
     },
     "fr": {
-        "title": "Corrosion des pipelines — Maintenance prédictive",
+        "title": "Corrosion des pipelines",
         "subtitle": "Prédire la vitesse de corrosion, la perte d'épaisseur, le risque, la probabilité de défaillance et la durée de vie restante.",
         "single": "Segment unique",
         "batch": "Import par fichier",
