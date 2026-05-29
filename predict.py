@@ -25,7 +25,7 @@ import joblib
 
 import schema
 
-MODELS_DIR = Path(__file__).parent / "models"
+MODELS_DIR = Path(__file__).parent
 
 # Classes the risk classifier emits that we treat as "needs intervention".
 AGGRESSIVE_CLASSES = ("high", "severe")
