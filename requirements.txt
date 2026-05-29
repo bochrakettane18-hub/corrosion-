@@ -1,0 +1,17 @@
+# Exact versions used to train + save the models. Pinned so the saved
+# joblib/keras artifacts load without version-mismatch errors on another machine.
+# Python 3.12 recommended.
+
+streamlit==1.58.0
+pandas==2.2.3
+numpy==2.4.6
+scikit-learn==1.8.0
+scipy==1.17.1
+xgboost==3.2.0
+tensorflow==2.21.0     # LSTM (Keras) — CPU build is fine; only the LSTM tab needs it
+keras==3.14.1
+shap==0.52.0
+matplotlib==3.10.8
+plotly==6.7.0          # gauges / interactive charts
+openpyxl==3.1.5        # read .xlsx uploads
+joblib==1.5.3          # save/load sklearn + xgboost models
